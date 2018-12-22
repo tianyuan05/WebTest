@@ -5,5 +5,18 @@
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@Model.Message</h3>
-
+<button onclick="Test()">测试</button>
+<button onclick="CallBack()">测试第二种</button>
+<button onclick="Call()">回调测试</button>
+<button onclick="DDD()">客户端</button>
 <p>Use this area to provide additional information.</p>
+@*<script type="text/javascript">
+    async function Test() {
+        console.log("++++++");
+        await CefSharp.BindObjectAsync("boundAsync");
+       
+        boundAsync.div(10, 2).then(function (rs) {
+            console.log(rs);
+        });
+    }
+</script>*@
